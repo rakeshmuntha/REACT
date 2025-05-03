@@ -5,7 +5,7 @@ import TextForm from "./components/TextForm";
 import Alert from "./components/Alert";
 // import { Routes, Route } from 'react-router-dom';
 
-function App() {
+function App()
 	const [mode, setmode] = useState('light');
 	const [alert, setalert] = useState(null);
 
