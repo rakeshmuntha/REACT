@@ -6,7 +6,7 @@ import Alert from "./components/Alert";
 // import { Routes, Route } from 'react-router-dom';
 
 function App() {
-	// this is 1
+	// this is 2
 	const [mode, setmode] = useState('light');
 	const [alert, setalert] = useState(null);
 
