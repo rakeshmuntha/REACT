@@ -13,7 +13,7 @@ function App() {
 		setalert({ msg: message, type: type });
 		setTimeout(() => setalert(null), 1500);
 	};
-
+  
 	const togglemode = () => {
 		if (mode === 'light') {
 			setmode('dark');
