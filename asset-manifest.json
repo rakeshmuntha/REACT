@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.31d6cfe0.css",
-    "main.js": "/my-app/static/js/main.dd8a6946.js",
-    "index.html": "/my-app/index.html",
-    "main.dd8a6946.js.map": "/my-app/static/js/main.dd8a6946.js.map"
+    "main.css": "/REACT/static/css/main.31d6cfe0.css",
+    "main.js": "/REACT/static/js/main.dd8a6946.js",
+    "index.html": "/REACT/index.html",
+    "main.dd8a6946.js.map": "/REACT/static/js/main.dd8a6946.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
