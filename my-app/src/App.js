@@ -6,7 +6,7 @@ import Alert from "./components/Alert";
 // import { Routes, Route } from 'react-router-dom';
 
 function App(){
-	// just for fun of git
+	// just for fun of git- rakesh
 	const [mode, setmode] = useState('light');
 	const [alert, setalert] = useState(null);
 
