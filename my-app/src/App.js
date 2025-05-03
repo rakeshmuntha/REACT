@@ -5,8 +5,8 @@ import TextForm from "./components/TextForm";
 import Alert from "./components/Alert";
 // import { Routes, Route } from 'react-router-dom';
 
-function App(){
-	// just for fun of git- rakesh
+function App() {
+	// this is 1
 	const [mode, setmode] = useState('light');
 	const [alert, setalert] = useState(null);
 
