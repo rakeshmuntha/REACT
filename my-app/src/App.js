@@ -3,7 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import TextForm from "./components/TextForm";
 import Alert from "./components/Alert";
-// import { Routes, Route } from 'react-router-dom';
+import About from "./components/About";
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
 	const [mode, setmode] = useState('light');
@@ -13,7 +14,7 @@ function App() {
 		setalert({ msg: message, type: type });
 		setTimeout(() => setalert(null), 1500);
 	};
-  
+
 	const togglemode = () => {
 		if (mode === 'light') {
 			setmode('dark');
@@ -33,11 +34,10 @@ function App() {
 			<Navbar title="Text Utilities" about="About us" mode={mode} togglemode={togglemode} />
 			<Alert alert={alert} />
 			<div className="container mb-3">
-				{/* <Routes>
+				<Routes>
 					<Route exact path="/" element={<TextForm title="Enter the text To analyze :" alerto={showAlert} mode={mode} />} />
 					<Route exact path="/about" element={<About mode={mode} />} />
-				</Routes> */}
-				<TextForm title="Enter the text To analyze :" alerto={showAlert} mode={mode} />
+				</Routes>
 			</div>
 		</div>
 	);
