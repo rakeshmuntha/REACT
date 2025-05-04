@@ -15,7 +15,7 @@ function App() {
 		setTimeout(() => setalert(null), 1500);
 	};
 
-	const togglemode = () => {
+	const togglemode = (cls) => {
 		if (mode === 'light') {
 			setmode('dark');
 			document.body.style.backgroundColor = 'black';

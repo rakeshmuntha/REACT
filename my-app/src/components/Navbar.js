@@ -25,8 +25,8 @@ function Navbar(props) {
 							<button className="btn btn-outline-primary" type="submit">Search</button>
 						</form>
 						<div className={`form-check form-switch text-${props.mode === 'light' ? 'dark' : 'light'} mx-3`}>
-							<input className="form-check-input" onClick={props.togglemode} type="checkbox" role="switch" id="switchCheckDefault"/>
-								<label className="form-check-label" htmlFor="switchCheckDefault">Dark Mode</label>
+							<input style={{cursor: 'pointer'}} className="form-check-input" onClick={props.togglemode} type="checkbox" role="switch" id="switchCheckDefault"/>
+								<label style={{cursor: 'pointer'}} className="form-check-label" htmlFor="switchCheckDefault">Dark Mode</label>
 						</div>
 					</div>
 				</div>

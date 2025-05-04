@@ -1,12 +1,9 @@
-import React, { useState } from 'react'
-
 function About(props) {
 
     const stylo = 
     {
         color: props.mode === 'dark' ? 'white' : 'black', backgroundColor: props.mode === 'dark' ? 'black' : 'white'
     }
-    const [btntext, setbtntext] = useState("Enable dark mode")
 
   return (
     <div className='container'>
