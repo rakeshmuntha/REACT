@@ -73,10 +73,6 @@ function TextForm(props) {
                 <h2>Preview</h2>
                 <p>{text.length > 0 ? text : 'Nothing to preview'}</p>
             </div>
-
-
-
-
         </>
     )
 }
