@@ -28,7 +28,17 @@ function App() {
 	};
 
 	return (
-		<div className="App">
+		<div className="App" style={{
+			transform: 'scale(0.8)',
+			transformOrigin: 'top left',
+			width: '125%',
+			position: 'absolute',
+			top: 0,
+			left: 0,
+			margin: 0,
+			padding: 0,
+		}}
+		>
 			<Navbar title="Text Utilities" about="About us" mode={mode} togglemode={togglemode} />
 			<Alert alert={alert} />
 			<div className="container mb-3">
